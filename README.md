@@ -1,15 +1,30 @@
-# DFX Identity Manager for Raycast
+# DFX Raycast Extension
 
-A Raycast extension for managing DFX identities on the Internet Computer. This extension provides a convenient interface to view, switch between, and manage your DFX identities directly from Raycast.
+A comprehensive Raycast extension for interacting with DFX and the Internet Computer. This extension provides a convenient interface to manage your DFX environment, identities, and more directly from Raycast.
 
-## Features
+## Current Features
 
+### Identity Management
 - List all DFX identities
 - View default identity
 - Display principal IDs
 - Switch between identities
 - Copy identity names and principal IDs to clipboard
 - Debug information for troubleshooting
+
+### DFX Control
+- Start DFX replica
+- Stop DFX replica
+- View DFX status
+
+## Planned Features
+
+- Canister management (deploy, upgrade, delete)
+- Cycle management
+- Network configuration
+- Project management
+- Asset management
+- And more...
 
 ## Prerequisites
 
@@ -21,25 +36,36 @@ A Raycast extension for managing DFX identities on the Internet Computer. This e
 
 1. Open Raycast
 2. Go to Extensions
-3. Search for "DFX Identity Manager"
+3. Search for "DFX"
 4. Click Install
 
 ## Usage
 
 1. Open Raycast
-2. Type "DFX Identity" to access the extension
-3. Use the following actions:
-   - View all your identities
-   - Switch between identities
-   - Copy principal IDs
-   - Copy identity names
-   - View debug information
+2. Type "DFX" to access the extension
+3. Choose from available commands:
+   - Identity Management
+     - View all identities
+     - Switch between identities
+     - Copy principal IDs
+     - Copy identity names
+     - View debug information
+   - DFX Control
+     - Start DFX replica
+     - Stop DFX replica
+     - Check DFX status
 
 ## Commands
 
+### Identity Management
 - `dfx identity list` - Lists all available identities
 - `dfx identity use <identity>` - Switches to the specified identity
 - `dfx identity get-principal` - Gets the principal ID for the current identity
+
+### DFX Control
+- `dfx start` - Starts the DFX replica
+- `dfx stop` - Stops the DFX replica
+- `dfx status` - Shows the current status of DFX
 
 ## Documentation
 
@@ -65,10 +91,15 @@ If you encounter any issues:
 2. Verify you have at least one identity created using `dfx identity new`
 3. Use the debug information feature in the extension to view detailed logs
 4. Ensure you have the latest version of DFX installed
+5. Check if the DFX replica is running when trying to use DFX commands
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. We're particularly interested in:
+- New DFX command integrations
+- UI/UX improvements
+- Bug fixes
+- Documentation improvements
 
 ## License
 
