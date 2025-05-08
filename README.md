@@ -53,7 +53,6 @@ A comprehensive Raycast extension for interacting with DFX and the Internet Comp
    - DFX Control
      - Start DFX replica
      - Stop DFX replica
-     - Check DFX status
 
 ## Commands
 
@@ -65,7 +64,6 @@ A comprehensive Raycast extension for interacting with DFX and the Internet Comp
 ### DFX Control
 - `dfx start` - Starts the DFX replica
 - `dfx stop` - Stops the DFX replica
-- `dfx status` - Shows the current status of DFX
 
 ## Documentation
 
